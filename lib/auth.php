@@ -80,7 +80,7 @@ class PodioEzauth
     public static function checkOrg()
     {
         try {
-            if(!\PodioOrganization::get(172651)){
+            if(!\PodioOrganization::get(self::$orgId)){
                 die('Not member of org.');
             }
         }catch(\PodioForbiddenError $e)
