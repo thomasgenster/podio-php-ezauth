@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "require":
     {
-        "podio/podio-php": "dev-master"
+        "podio/podio-php": "v4.0.1@stable"
     },
     "autoload":
     {
