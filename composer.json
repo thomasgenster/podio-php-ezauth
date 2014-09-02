@@ -3,6 +3,7 @@
     "description": "Makes is possible to make one-line auth with the Podio-PHP library",
     "keywords": ["podio", "ezauth", "podio-php"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "require":
     {
         "podio/podio-php": "dev-master"
