@@ -9,6 +9,13 @@ use Podio;
  */
 class PodioEzauth
 {
+    /**
+     * @var string $uUrl
+     * @var string $cId
+     * @var string $cSecret
+     * @var int $orgId
+     * @var string $token
+     */
     private static $rUrl, $cId, $cSecret, $orgId, $token = null;
 
     /**
