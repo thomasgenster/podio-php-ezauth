@@ -5,7 +5,7 @@
     "license": "MIT",
     "require":
     {
-        "podio/podio-php": "dev-master"
+        "podio/podio-php": "v4.0.1"
     },
     "autoload":
     {
